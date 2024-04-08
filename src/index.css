@@ -1,6 +1,7 @@
 :root{
   --primario: #fb8500;
   --secundario: #219ebc;
+  --warning: #c1121f;
 }
 
 html{
@@ -77,7 +78,7 @@ button{
   color: white;
 }
 button:hover{
-  background-color: #c1121f;
+  background-color: var(--warning);
 }
 
 form{
