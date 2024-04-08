@@ -59,23 +59,25 @@ h1{
 /* estilo especifico */
 input{
   width: 70%;
-  padding: 1rem;
+  padding: 1.5rem;
   outline: none;
-  border-bottom: none;
-  border-color: #ffb703
+  border: solid var(--primario) 1px;
+  border-bottom: 0px;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 button{
   border: none;
   width: 70%;
   padding: .5rem;
-  background-color: #ffb703;
+  background-color: var(--primario);
   border-bottom-left-radius: .5rem;
   border-bottom-right-radius: .5rem;
   cursor: pointer;
   color: white;
 }
 button:hover{
-  background-color: #e9c46a;
+  background-color: #c1121f;
 }
 
 form{
